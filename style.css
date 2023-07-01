@@ -1,0 +1,43 @@
+
+
+    .swiper {
+      width: 60%;
+    }
+
+    .swiper-slide {
+        width: 100px;
+        height: 200px;
+        padding: 2rem 0px 7rem;
+        border: 2px solid rgb(147, 233, 147);
+    }
+
+    .swiper-img img{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+    .swiper-img{
+      background-position: center;
+      background-size: cover;
+      width: 150px;
+      height: 150px;
+    }
+
+    .section-bg{
+      padding-bottom: 5rem;
+    }
+
+    .icon{
+      padding: 15px;
+      left: 42%;
+      position: absolute;
+      background-color: rgb(29, 35, 29);
+      transition: 0.6s;
+    }
+
+    .icon a i{
+      color: gold;
+    }
+
+
+   
