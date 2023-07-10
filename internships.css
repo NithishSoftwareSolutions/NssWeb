@@ -1,6 +1,6 @@
 
 /*----------------------Slider-------------------------*/
-.btn1{
+/* .btn1{
     font-size: 40px;
     box-shadow: 5px 5px 15px 5px black;
     padding: 0px 2rem;
@@ -16,32 +16,27 @@
     position: absolute;
     top: 45%;
     right: 0;
-} 
-
-/*---------------------form-----------------------*/
-.text-center{
-    padding: 100px;
+}  */
+.body{
+    overflow-x: hidden;
 }
-.btn-primary{
-    font-size: 15px;
-    padding: 10px;
-    color: white;
+.shadow-lg{
+    padding: 3rem 3rem 1rem 3rem;
 }
 .form-submit{
     cursor: pointer;
-    margin-top: -6rem;
     padding-bottom: 1rem;
 }
-.shadow-lg{
-    padding: 3rem 3rem 0 3rem;
-}
-
-.note{
-    text-align: center;
-    padding-bottom: 2rem;
-}
-.application{
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-}
+.fade-in {
+    opacity: 0; /* Start with 0 opacity */
+    animation: fadeInAnimation 1.5s ease-in forwards; /* Animation properties */
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0; /* Starting opacity */
+    }
+    100% {
+      opacity: 2; /* Ending opacity */
+    }
+  }

@@ -43,10 +43,19 @@
                 </div>
                 <nav class="navbar" id="navbar">
                     <ul>
-                        <li><a class="nav-link scrollto active" href="home">Home</a></li>
-                        <li><a class="nav-link scrollto" href="#about">About us</a></li>
-                        <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                        <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
+                        <li><a class="nav-link scrollto" href="./index.html">About us</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Sevices
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./jobs.html">Jobs</a></li>
+                                <li><a class="dropdown-item" href="./internships.html">Internships</a></li>
+                                <li><a class="dropdown-item" href="./Technology.html">Technology</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="nav-link scrollto" href="#cacontt">Contact</a></li>
                         <li><a class="getstarted scrollto" href="#">Get Started</a></li>
                     </ul>
                     <i class="bi bi-list mobile-nav-toggle"></i>
@@ -61,7 +70,7 @@
         </main>
 
         <section>
-            <form action="" class="w-50 mx-auto shadow-lg border border-black">
+            <form action="" class="w-100 mx-auto shadow-lg col-lg-6 col-md-6">
 
                 <div class="row mb-4">
                     <div class="col">
@@ -86,7 +95,8 @@
                 </div>
 
                 <div class="mb-4">
-                    <select name="Courses" id="Courses" class="form-select form-control" area-label="Default select example">
+                    <select name="Courses" id="Courses" class="form-select form-control"
+                        area-label="Default select example">
                         <option selected>Select</option>
                         <option value="1">C,C++</option>
                         <option value="2">Java</option>
@@ -114,16 +124,23 @@
                             <option>...</option>
                         </select>
                     </div>
-                    
+
                     <div class="col">
                         <input type="text" class="form-control" id="inputZip" placeholder="Zip">
                     </div>
-                </div>
 
-                <div class="text-center form-submit">
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </div>
+                    <div class="row text-center">
+                        <div class="col">
+                            <a class="btn" href="./Technology.html">Back</a>
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="btn">Submit</button>
+                        </div>
+                    </div>
+
+                </div>
             </form>
         </section>
     </body>
+
 </html>

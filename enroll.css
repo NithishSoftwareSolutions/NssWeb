@@ -1,10 +1,9 @@
 .text-center{
-    padding: 100px;
+    padding: 50px;
 }
-.form-submit{
+.btn{
     cursor: pointer;
-    margin-top: -5rem;
-    padding-bottom: 3rem;
+   border: 2px solid skyblue;
 }
 .shadow-lg{
     padding: 3rem 3rem 0 3rem;

@@ -48,16 +48,26 @@
             </div>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                    <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+                    <li><a class="nav-link scrollto active" href="#">Home</a></li>
+                    <li><a class="nav-link scrollto" href="./about.html">About Us</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Sevices
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./jobs.html">Jobs</a></li>
+                            <li><a class="dropdown-item" href="./internships.html">Internships</a></li>
+                            <li><a class="dropdown-item" href="./Technology.html">Technology</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="./contact.html">Contact</a></li>
+                    <li><a class="getstarted scrollto" href="#">Get Started</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
         </div>
     </header>
+    
     <section id="hero">
         <div class="container-fluid">
             <div class="row d-flex align-items-center">
@@ -90,12 +100,13 @@
                 </div>
             </div>
         </div>
-    </section><!-- End Hero -->
+    </section>
+    <!-- End Hero -->
 
     <main id="main">
 
         <!-- ======= Clients Section ======= -->
-        <section id="clients" class="clients section-bg">
+        <section id="clients" class="clients">
             <div class="container">
 
                 <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
@@ -121,7 +132,7 @@
                                 growth.
                             </p>
                             <div class="row gy-4 mt-3">
-                                <div class="col-md-6 icon-box" data-aos="fade-up">
+                                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                                     <h4><a href="#">Commitment</a></h4>
                                     <p>Our professional team has an absolute commitment to client services. Nithish
                                         Software Solutions is dedicated to providing quality work to our clients.</p>
@@ -157,20 +168,20 @@
                     <h4 data-aos="fade-in">Services</h4>
                 </div>
 
-                <div class="row pt-5">
-                    <div class="col-md-3 mx-auto d-flex" data-aos="fade-right">
-                        <div class="card mx-auto">
-                            <div class="card-body ml-1" style="width: 18rem;">
+                <div class="row pt-5 w-auto">
+                    <div class="col-md-12 col-lg-3 mx-auto d-flex" data-aos="fade-right">
+                        <div class="card ">
+                            <div class="card-body mx-auto" style="width: 15rem;">
                                 <div class="card-img">
-                                    <a href=""><img src="./images/jobs.png" alt="..." class="img-fluid"></a>
+                                    <a href="./jobs.html"><img src="./images/jobs.png" alt="..." class="img-fluid"></a>
                                 </div>
                             </div>
-                            <h5 class="card-title mt-2 ml-2"><a href="">Jobs</a></h5>
+                            <h5 class="card-title mt-2 ml-2"><a href="./jobs.html">Jobs</a></h5>
                         </div>
                     </div>
-                    <div class="col-md-3 mx-auto d-flex">
-                        <div class="card mx-auto">
-                            <div class="card-body ml-1" style="width: 18rem;">
+                    <div class="col-md-12 col-lg-3 mx-auto d-flex">
+                        <div class="card ">
+                            <div class="card-body mx-auto" style="width: 15rem;">
                                 <div class="card-img">
                                     <a href="./internships.html"><img src="./images/Internships.png" alt="..."
                                             class="img-fluid" width="200px" height="180px"></a>
@@ -179,15 +190,15 @@
                             <h5 class="card-title mt-2 ml-5"><a href="./internships.html">Internships</a></h5>
                         </div>
                     </div>
-                    <div class="col-md-3 mx-auto d-flex" data-aos="fade-left">
-                        <div class="card mx-auto">
-                            <div class="card-body ml-1" style="width: 18rem;">
+                    <div class="col-md-12 col-lg-3 mx-auto d-flex" data-aos="fade-left">
+                        <div class="card">
+                            <div class="card-body mx-auto" style="width: 15rem;">
                                 <div class="card-img">
-                                    <a href="./Consultancy.html"><img src="./images/Consultancy.avif" alt="..."
+                                    <a href="./Technology.html"><img src="./images/Consultancy.avif" alt="..."
                                             class="img-fluid"></a>
                                 </div>
                             </div>
-                            <h5 class="card-title mt-2 ml-5"><a href="./Consultancy.html">Consultancy</a></h5>
+                            <h5 class="card-title mt-2 ml-5"><a href="./Technology.html">Technology</a></h5>
                         </div>
                     </div>
                 </div>
@@ -209,15 +220,14 @@
                         </div>
                         <div class="text-center mx-auto">
                             <span class="fw-bold fs-3">Web Developer<br></span>
-                            <span class="fw-bold text-success fs-4">Jaya Aditya</span>
+                            <span class="fw-bold fs-4">Jaya Aditya</span>
                             <p class="mt-2">Hello Everyone. This is Jayaaditya from Machilipatnam.</p>
-                            <div class="icon shadow rounded">
+                            <div class="icon shadow rounded col-md-3 w-auto col-lg-3 mx-auto">
                                 <a><i class="bi-star-fill"></i></a>
                                 <a><i class="bi-star-fill"></i></a>
                                 <a><i class="bi-star-fill"></i></a>
                                 <a><i class="bi-star-fill"></i></a>
                                 <a><i class="bi-star-fill"></i></a>
-                                
                             </div>
                         </div>
                     </div>
@@ -225,10 +235,10 @@
                     <div class="swiper-slide">
                         <div class="swiper-img mx-auto"><img src="D:\DSC_3956.JPG" alt=""></div>
                         <div class="text-center">
-                            <span class="fw-bold fs-3">Web Developer<br></span>
-                            <span class="fw-bold text-success fs-4">Jaya Aditya</span>
+                            <span class="fs-3">Web Developer<br></span>
+                            <span class="fw-bold fs-4">Jaya Aditya</span>
                             <p class="mt-1">Hello Everyone. This is Jayaaditya from Machilipatnam.</p>
-                            <div class="icon shadow rounded">
+                            <div class="icon shadow rounded col-md-3 w-auto col-lg-3 mx-auto">
                                 <a><i class="bi-star-fill"></i></a>
                                 <a><i class="bi-star-fill"></i></a>
                                 <a><i class="bi-star-fill"></i></a>
@@ -243,10 +253,10 @@
                             <img src="D:\DSC_3956.JPG" alt="">
                         </div>
                         <div class="text-center">
-                            <span class="fw-bold fs-3">Web Developer <br></span>
-                            <span class="fw-bold text-success fs-4">Jaya Aditya</span>
+                            <span class="fs-3">Web Developer <br></span>
+                            <span class="fw-bold fs-4">Jaya Aditya</span>
                             <p class="mt-1"> Hello Everyone. This is Jayaaditya from Machilipatnam.</p>
-                            <div class="icon shadow rounded">
+                            <div class="icon shadow rounded col-md-3 w-auto col-lg-3 mx-auto">
                                 <a><i class="bi-star-fill"></i></a>
                                 <a><i class="bi-star-fill"></i></a>
                                 <a><i class="bi-star-fill"></i></a>
@@ -261,10 +271,10 @@
                             <img src="D:\DSC_3956.JPG" alt="">
                         </div>
                         <div class="text-center">
-                            <span class="fw-bold fs-3">Web Developer <br></span>
-                            <span class="fw-bold text-success fs-4">Jaya Aditya</span>
+                            <span class="fs-3">Web Developer <br></span>
+                            <span class="fw-bold fs-4">Jaya Aditya</span>
                             <p class="mt-1">Hello Everyone. This is Jayaaditya from Machilipatnam.</p>
-                            <div class="icon shadow rounded">                              
+                            <div class="icon shadow rounded col-md-3 w-auto col-lg-3 mx-auto">
                                 <a><i class="bi-star-fill"></i></a>
                                 <a><i class="bi-star-fill"></i></a>
                                 <a><i class="bi-star-fill"></i></a>
@@ -287,15 +297,17 @@
                 <div class="section-title">
                     <h4 data-aos="fade-in">Features</h4>
                 </div>
-                <div class="text-center content">
-                    <img src="./images/services.png" alt="">
+                <div class="text-center content ">
+                    <img src="./images/services.png" alt="" class="img-fluid">
                 </div>
             </div>
-        </section><!-- End Features Section -->
+        </section>
+        
+        <!-- End Features Section -->
 
 
         <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact section-bg">
+        <!-- <section id="contact" class="contact section-bg">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -362,9 +374,11 @@
                 </div>
 
             </div>
-        </section><!-- End Contact Section -->
+        </section> -->
 
-    </main><!-- End #main -->
+        <!-- End Contact Section-->
+
+
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
@@ -384,7 +398,8 @@
                 &copy; Copyright <strong><span>Nithish Software Soluctions Pvt Ltd</span></strong>. All Rights Reserved
             </div>
         </div>
-    </footer><!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
@@ -406,7 +421,6 @@
     <script src="assets/vendor/php-email-form/validate.js"></script>
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-
     <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </body>
