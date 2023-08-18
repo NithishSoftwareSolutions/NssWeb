@@ -1,0 +1,48 @@
+  .swiper{
+    width: 100%;
+  }
+
+    .swiper-slide {
+        width: 100px;
+        height: 200px;
+        padding: 2rem 0px 3rem;
+        border: 2px solid skyblue;
+    }
+
+    .swiper-img img{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+    .swiper-img{
+      background-position: center;
+      background-size: cover;
+      width: 150px;
+      height: 150px;
+    }
+
+    .section-bg{
+      padding-bottom: 5rem;
+    }
+
+    .icon{
+      padding: 15px;
+      background-color: rgb(29, 35, 29);
+
+    }
+
+    .icon a i{
+      color: gold;
+    }
+
+@media (min-width:400px) and (max-width:720px){
+  .swiper{
+    width: 70%;
+    height: 70%;
+  }
+
+  .section-bg{
+    padding-bottom: 2rem;
+  }
+
+}
