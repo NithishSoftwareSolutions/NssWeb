@@ -1,0 +1,111 @@
+.about_app{
+  background-color: #2f1b56;
+}
+.column_1{
+    padding-left: 12%;
+    padding-top: 3%;
+   
+}
+.column_2{
+padding-left: 10%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    
+}
+.btn-primary{
+    background-color: #df2466 !important;
+    border-color: #df2466 !important;
+    width: 30% !important;
+    height: 13% !important;
+}
+.iott-app-image{
+height: 50%;
+/* transform: rotate(10deg);  */
+}
+.features_1{
+    margin-bottom: -13%;
+}
+
+/* .about_ap{
+    background-color: #f2f2f2;
+} */
+/* Apply the initial styles to the image */
+#delivery-boy {
+    position: absolute;
+    animation: slideRight 15s linear infinite; 
+}
+
+/* Create the animation */
+@keyframes slideRight {
+    0% {
+        left: -30%; /* Starting position off-screen to the left */
+    }
+    100% {
+        left: 100%; /* Ending position off-screen to the right */
+    }
+}
+
+.app{
+    margin-top: 40%;
+}
+.iott-review-image{
+    width:50%;
+    height:100%;
+}
+.login_feature{
+    
+    margin-bottom: 3%;
+}
+.login_feature h2{
+    
+    margin-top: 20%;
+}
+.iott-payment_page{
+  width:40%;
+}
+.iott-home-image{
+    width:50%;
+}
+#section2{
+    margin-bottom:15%;
+}
+.restaurant_app{
+    margin-top:-60%;
+}
+
+#section2 h3{
+    color:#df2466
+}
+#section4 h3{
+    color:#df2466
+}
+#section6 h3{
+    color:#df2466
+}
+ .btn-secondary{
+    background-color: #df2466 !important;
+    border-color: #df2466 !important;
+   
+}
+.iott-apps-image{
+    width:90%;
+}
+#section5 .column_2{
+    padding-left: 0%;
+   
+}
+#section9{
+    margin-top:-20%;
+}
+/* #section10{
+    background-color: #f2f2f2;
+   
+} */
+
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #D80286;
+  }
+
+  .app_features{
+    margin-top:7%;
+  }

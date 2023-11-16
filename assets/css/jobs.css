@@ -1,0 +1,26 @@
+#jobs img{  
+    
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+
+}
+#jobs .card-body{  
+    
+    background-color: #031D2C;
+}
+
+.jobs_cards{
+    margin-left:22%;
+    
+}
+
+/* @media (max-width: 345px) {
+    .jobs_cards{
+        width:65%;
+    } 
+} */
+
+#reviewCarousel .carousel-inner .carousel-item .card .card-img-top {
+    width:30%;
+}

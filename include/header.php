@@ -30,17 +30,18 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-     <link href="assets/css/style-new.css" rel="stylesheet">
+     <!-- <link href="assets/css/style-new.css" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="./style.css"> -->
-    <link rel="stylesheet" href="assets/css/internship.css">
+    <!-- <link rel="stylesheet" href="assets/css/internship.css"> -->
     <!-- <link rel="stylesheet" href="./internships.css"> -->
-    <link rel="stylesheet" href="assets/css/about.css">
-    <link rel="stylesheet" href="assets/css/enroll.css">
-    <link rel="stylesheet" href="assets/css/form.css"></link>
+    <!-- <link rel="stylesheet" href="assets/css/about.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/enroll.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/form.css"></link> -->
     <link rel="stylesheet" href="assets/css/jobs.css">
-    <link rel="stylesheet" href="assets/css/career.css">
+    <link rel="stylesheet" href="assets/css/solutions.css">
     <link rel="stylesheet" href="assets/css/home.css">
-    <link rel="stylesheet" href="assets/css/Technology.css">
+    <link rel="stylesheet" href="assets/css/services.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
     
     <!-- Swiper link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
@@ -75,69 +76,113 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
+    
+
+    
     <!-- <script disable-devtool-auto src='assets/js/disable-devtool-custom.js'></script> -->
 </head>
 
-<body>
-<header id="header">
+
+<header id="header" >
         <div class="container d-flex align-items-center justify-content-between">
             <div class="logo">
-                <a href="home.php"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+                <a href="index"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
             </div>
-            <!-- <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a class="nav-link scrollto active" href="./home.php">Home</a></li>
-                    <li><a class="nav-link scrollto" href="./about.php">About Us</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./career.php">Jobs</a></li>
-                            <li><a class="dropdown-item" href="./internshipsfinal.php">Internships</a></li>
-                             <li><a class="dropdown-item" href="./Technology.php">Technology</a></li>
-                            <li><a class="dropdown-item" href="./investments.php">Investments</a></li> 
-                        </ul>
-                    </li>
-                    <li><a class="nav-link scrollto" href="./contact.php">Contact</a></li>
-                    <li><a class="getstarted scrollto" href="#">Get Started</a></li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
-        </div> -->
+            
 
         <nav id="navbar" class="navbar navbar-expand-lg top-navbar" data-toggle="sticky-onscroll"> 
     <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
         <span class="navbar-toggler-icon"> </span> </button>
-    <!-- <p class="d-none d-sm-none d-md-none d-lg-none d-xl-block" style="margin-top: 1em; margin-left: 2em;"><i class="fas fa-1x fa-mobile-alt" style="margin-right: 10px;"></i> +45 71116050 <i class="fas fa-1x fa-envelope" style="margin-left: 20px; margin-right: 10px;"></i> info@biogenity.com</p> -->
-    
     <!-- Nav Menu -->
+    <?php
+        $page = "";
+    ?>
+            <div class="loader" id="loader">
+            </div>
+            
      <div class="collapse navbar-collapse flex-column ml-lg-0 ml-3 ml-auto" id="navbarSupportedContent" > 
     <ul>
-                    <li><a class="nav-link scrollto active" href="./home.php">Home</a></li>
-                    <li><a class="nav-link scrollto" href="./about.php">About Us</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./career.php">Jobs</a></li>
-                            <li><a class="dropdown-item" href="./internshipsfinal.php">Internships</a></li>
-                            <!-- <li><a class="dropdown-item" href="./Technology.php">Technology</a></li>
-                            <li><a class="dropdown-item" href="./investments.php">Investments</a></li>  -->
-                        </ul>
-                    </li>
-                    <li><a class="nav-link scrollto" href="./contact.php">Contact</a></li>
-                    <li><a class="getstarted scrollto" href="#">Get Started</a></li>
+        
+                    <li><a class="nav-link scrollto <?php echo ($page == 'index') ? 'active' : ''; ?>" href="./index" id="home-link">HOME</a></li>
+                    <li><a class="nav-link scrollto  <?php echo ($page == 'portfolio') ? 'active' : ''; ?>" href="./portfolio" id="portfolio-link">PORTFOLIO</a></li>
+                    <li><a class="nav-link scrollto  <?php echo ($page == 'technologies') ? 'active' : ''; ?>" href="./technologies" id="tech-link">TECHNOLOGY</a></li>
+                    <li><a class="nav-link scrollto  <?php echo ($page == 'services') ? 'active' : ''; ?>" href="./services" id="services-link">SERVICES</a></li>
+                    <!-- <li><a class="nav-link scrollto font-weight-bold" href="#" id="client-link"><h6>Clients</h6></a></li> -->
+                    <li><a class="nav-link scrollto <?php echo ($page == 'job') ? 'active' : ''; ?>" href="./job" id="intern-link">INTERNSHIPS</a></li>
+                    
+
+                    <!-- <li><a class="nav-link scrollto font-weight-bold" href="#" id="hire-link"><h6>Hire Us</h6></a></li> -->
+                    <!-- <li><a class="nav-link scrollto font-weight-bold <?php echo ($page == 'solutions') ? 'active' : ''; ?>" href="./solutions.php" id="sol-link"><h6>Solutions</h6></a></li> -->
+                    <li class="nav-item dropdown">
+  <a class="nav-link scrollto  <?php echo ($page == 'solutions') ? 'active' : ''; ?>"  id="sol-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    SOLUTIONS
+  </a>
+  <div class="dropdown-menu" aria-labelledby="sol-link">
+    <!-- Dropdown items -->
+    <a class="dropdown-item" href="./solutions">IOTT APP</a>
+  </div>
+</li>
+                    <li><a class="nav-link scrollto  <?php echo ($page == 'contactus') ? 'active' : ''; ?>" href="./contactus" id="contact-link">CONTACT US</a></li>
+                   
                 </ul>
       <!-- <i class="bi bi-list mobile-nav-toggle"></i>--> </div> 
 </nav>
 
         </div>
     </header>
+
+
+    <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+       
+        var currentPageURL = window.location.href;
+
+       
+        if (currentPageURL.includes('index')) {
+            document.getElementById('home-link').classList.add('active');
+        } 
+        else if (currentPageURL.includes('portfolio')) {
+            document.getElementById('portfolio-link').classList.add('active');
+        } 
+        else if (currentPageURL.includes('technologies')) {
+            document.getElementById('tech-link').classList.add('active');
+        }
+        else if (currentPageURL.includes('services')) {
+            document.getElementById('services-link').classList.add('active');
+        }
+        else if (currentPageURL.includes('job')) {
+            document.getElementById('intern-link').classList.add('active');
+        }
+        else if (currentPageURL.includes('contactus')) {
+            document.getElementById('contact-link').classList.add('active');
+        }
+        else if (currentPageURL.includes('solutions')) {
+            document.getElementById('sol-link').classList.add('active');
+        }
+       
+    });
+
+   
+const loader = document.getElementById('loader');
+const links = document.querySelectorAll('.nav-link');
+
+links.forEach(link => {
+  link.addEventListener('click', () => {
     
+    loader.style.display = 'block';
+  });
+});
 
 
+ window.addEventListener('load', () => {
+   loader.style.display = 'none';
+ });
+
+
+
+
+</script>
 
 
 
