@@ -1,77 +1,131 @@
-<!-- <footer id="footer">
+<style>
+  footer {
+  background-color: #326FA7;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Bitter';
+}
+ 
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.contact-info {
+  margin-bottom: 10px;
+}
+ 
+.contact-info a {
+  color: white;
+  text-decoration: none;
+}
+ 
+.social-media {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
 
-        <div class="footer-top mt-5">
+.social-media::before,
+.social-media::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: white;
+  margin: 0 10px;
+}
 
-            <div class="container">
+.social-media a img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
+ 
+.company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+ 
+.company-info img {
+  /* width: 50px;
+  height: 50px; */
+  margin-bottom: 10px;
+}
+ 
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+ 
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+.contact-info1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 
-                <div class="row justify-content-center">
-                </div>
+.contact-left{
+  margin-left: 15%;
+}
+.contact-right{
+  margin-right:15%;
+}
+.email{
+  color:white;
+}
+.phone{
+  color:white;
+}
+</style>
+<footer>
 
-            </div>
-        </div>
-
-        <div class="container footer-bottom clearfix">
-            <div class="copyright">
-                &copy; Copyright <strong><span>Nithish Software Soluctions Pvt Ltd</span></strong>. All Rights Reserved
-            </div>
-        </div>
-</footer> -->
-
-
-
-<section id="foot">
-        <footer class="footer container-fluid footer-style">
-         <div class="footer__addr">
-           <h1 class="footer__logo">Nithish Software Solutions Pvt Ltd</h1>
-           <h2 class="nav__title text-center">Contact</h2>
-           <address>
-           <img src="assets/img/carbon_location.png"><a href="https://www.google.com/maps/Eswar Plaza+F.No.503+Fifth floor+Dwaraka nagar+Beside SBI Bank Visakhapatnam/">Eswar Plaza , F.No.503, Fifth floor, Dwaraka nagar, Beside SBI Bank Visakhapatnam<br>
-           <img src="assets/img/fluent_call-24-filled.png"><a href="tel:0891-4066856">0891-4066856</a><br>    
-             <a href="mailto:info@nssorg.com"><img src="assets/img/mail.png">info@nssorg.com</a>
-           </address>
-         </div>
-         <ul class="footer__nav">
-           <li class="nav__item">
-             <h2 class="nav__title">Our Services</h2>
-             <ul class="nav__ul text-center">
-               <li>> App Development</li>
-               <li>> Web Development</li>    
-               <li>> Cloud Computing</li>
-               <li>> E Commerce</li>
-               <li>> Landing Pages</li>
-               <li>> Digital Marketing</li>
-             </ul>
-           </li>
-           <br>
-           <li class="nav__item text-center">
-             <h2 class="nav__title">Career</h2>
-             <ul class="nav__ul">
-                 <li>> Internships</li>
-                 <li>> Real Time Projects</li>
-                 <li>> Training</li>
-                 <li>> Jobs</li>
-             </ul>
-           </li>
-           <li class="nav__item">
-             <h2 class="nav__title">Follow Us</h2>
-             <ul class="nav__ul text-center">
-               <li>
-                 <a href="#"><img src="assets/img/Instagram.png"></a>
-               </li>
-               <li>
-                 <a href="#"><img src="assets/img/Twitter.png"></a>
-               </li>
-               <li>
-                 <a href="#"><img src="assets/img/Youtube.png"></a>
-               </li>
-               <li>
-                 <a href="#"><img src="assets/img/Facebook.png"></a>
-               </li>
-             </ul>
-           </li>
-         </ul>
-            <div class="copyright text-center">
-                &copy; Copyright <strong><span>Nithish Software Soluctions Pvt Ltd</span></strong>. All Rights Reserved
-            </div>
-       </footer>
-       </section>
+<div class="social-media">
+<a href="
+https://www.instagram.com/nss_software?igsh=c3RxOHExcGc4cTMz"
+target="_blank"><img src="assets/img/Vector.png" alt="Instagram"></a>
+<a href="
+https://www.facebook.com/profile.php?id=61560461565737"
+target="_blank"><img src="assets/img/Vector (1).png" alt="Facebook"></a>
+<a href="
+https://whatsapp.com/channel/0029VaXwNMdInlqItVQOL332"
+target="_blank"><img src="assets/img/Vector (2).png" alt="WhatsApp"></a>
+</div>
+<div class="footer-container">
+<!-- <div class="contact-info">
+<p>Contact: <a href="mailto:info@nss.org.com">info@nss.org.com</a></p>
+<p>Phone: <a href="tel:+91891406856">0891-406856</a></p>
+</div> -->
+<div class="contact-info1">
+  <p class="contact-left">Contact: <a href="mailto:info@nssorg.com" class="email">info@nssorg.com</a></p>
+  <p class="contact-right">Phone: <a href="tel:+91891406856" class="phone">0891-406856</a></p>
+</div>
+<div class="company-info">
+<img src="assets/img/Group 90.png" alt="Nitish Software Solutions Logo">
+<p>&copy; 2023 Nitish Software Solutions Pvt. Ltd.</p>
+</div>
+<nav class="footer-nav">
+<a href="index.php">Home</a> |
+<a href="technologies.php">Technologies</a> |
+<a href="our_people.php">Our People</a> |
+<a href="job.php">Internships</a> |
+<a href="solutions.php">Solutions</a> |
+<a href="contact.php">Contact Us</a>
+</nav>
+</div>
+</footer>
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+  const socialMediaLinks = document.querySelectorAll('.social-media a');
+  socialMediaLinks.forEach(link => {
+    link.setAttribute('target', '_blank');
+  });
+});
+</script>

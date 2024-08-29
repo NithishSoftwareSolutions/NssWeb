@@ -128,7 +128,7 @@ $conn = mysqli_connect(DB_HOST, DB_USERNAME,DB_PASSWORD, DB_DATABASE_NAME);
             $file_uploaded = move_uploaded_file($_FILES['file']['tmp_name'],'internship_upload/'.$file);
             if($file_uploaded) {
               $ch = curl_init();
-              curl_setopt($ch, CURLOPT_URL, "http://localhost/NSS_New/action.php/user/add");
+              curl_setopt($ch, CURLOPT_URL, "https://nssorg.com/action.php/user/add");
               curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
               curl_setopt($ch, CURLOPT_POST, true);
               $data = array(

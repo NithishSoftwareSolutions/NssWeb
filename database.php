@@ -82,3 +82,75 @@ class Database
     }
 }
 
+
+require_once 'Database.php';
+
+class ContactForm {
+    private $conn;
+
+    public function __construct() {
+        $database = new Database();
+        $this->conn = $database->getConnection();
+    }
+
+    public function validate($name, $email, $requirement) {
+        $errors = [];
+
+        // Validate name
+        if (empty($name)) {
+            $errors['name_error'] = "Name is required";
+        } elseif (!preg_match("/^[a-zA-Z ]*$/", $name)) {
+            $errors['name_error'] = "Only alphabets and white spaces are allowed";
+        }
+
+        // Validate email
+        if (empty($email)) {
+            $errors['email_error'] = "Email is required";
+        } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $errors['email_error'] = "This is an invalid email";
+        } else {
+            // Check if email already exists
+            if ($this->emailExists($email)) {
+                $errors['email_error'] = "Email is already subscribed";
+            }
+        }
+
+        // Validate requirement
+        if (empty($requirement)) {
+            $errors['requirement_error'] = "Requirement is required";
+        }
+
+        return $errors;
+    }
+
+    public function emailExists($email) {
+        $query = "SELECT id FROM contacts WHERE email = :email";
+        $stmt = $this->conn->prepare($query);
+        $stmt->bindParam(':email', $email);
+        $stmt->execute();
+
+        return $stmt->rowCount() > 0;
+    }
+
+    public function saveContact($name, $email, $requirement) {
+        $query = "INSERT INTO contacts SET name = :name, email = :email, requirement = :requirement";
+        $stmt = $this->conn->prepare($query);
+
+        // sanitize
+        $name = htmlspecialchars(strip_tags($name));
+        $email = htmlspecialchars(strip_tags($email));
+        $requirement = htmlspecialchars(strip_tags($requirement));
+
+        // bind values
+        $stmt->bindParam(':name', $name);
+        $stmt->bindParam(':email', $email);
+        $stmt->bindParam(':requirement', $requirement);
+
+        if ($stmt->execute()) {
+            return true;
+        }
+
+        return false;
+    }
+}
+?>

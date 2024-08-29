@@ -1,0 +1,238 @@
+body{
+
+    background-color: #ffffff !important;
+}
+
+
+#appliction_f{
+
+    width: 50% !important;
+    
+}
+
+#form3Example1{
+
+    height: calc(2.70em + 0.75rem + 2px) !important;
+    background: #ffffff;
+    font-family: 'Nunito';
+    font-weight: 800;
+    color: #808080;
+    border: solid 1px #808080;
+    border-radius: 5px;
+}
+
+
+
+
+#form3Example2{
+
+    height: calc(2.70em + 0.75rem + 2px) !important;
+    background: #ffffff;
+    font-family: 'Nunito';
+    font-weight: 800;
+    color: #808080;
+    border: solid 1px #808080;
+    border-radius: 5px;
+}
+
+
+
+#form3Example3{
+    height: calc(2.70em + 0.75rem + 2px) !important;
+    background: #ffffff;
+    font-family: 'Nunito';
+    font-weight: 800;
+    color: #808080;
+    border: solid 1px #808080;
+    border-radius: 5px;
+}
+
+
+
+#myFile{
+
+    font-size: 20px !important;
+    font-family: bitter !important;
+}
+
+#submit{
+    color: #fff;
+    background-color: #004085;
+    border-color: #004085;
+    width: 20%;
+    font-family: 'Nunito';
+
+}
+
+#unique-page{
+
+    margin-top: 4%;
+}
+
+
+@media (max-width: 1024px){
+
+
+    #appliction_f {
+        width: 60% !important;
+    }
+
+    
+#unique-page{
+
+    margin-top: 5%;
+}
+
+}
+@media (max-width: 768px){
+
+
+
+#unique-page{
+
+    margin-top: 7%;
+}
+
+#appliction_f {
+    width: 74% !important;
+}
+
+
+}
+
+@media (max-width: 426px){
+
+
+
+    #appliction_f {
+        width: 86% !important;
+    }
+
+    #form3Example1{
+
+        height: calc(2.2em + 0.75rem + 2px) !important;
+        font-size: 12px;
+    }
+
+    #form3Example2{
+
+        height: calc(2.2em + 0.75rem + 2px) !important;
+        font-size: 12px;
+    }
+
+    #form3Example3{
+
+        height: calc(2.2em + 0.75rem + 2px) !important;
+        font-size: 12px;
+    }
+
+    #form3Example4 {
+        height: calc(2.2em + 0.75rem + 2px) !important;
+        font-size: 12px;
+    }
+
+    #form3Example5 {
+        height: calc(2.2em + 0.75rem + 2px) !important;
+        font-size: 12px;
+    }
+
+    
+    #form3Example6 {
+        height: calc(2.2em + 0.75rem + 2px) !important;
+        font-size: 12px;
+    }
+
+
+    #myFile{
+
+        font-size: 12px !important;
+        
+    }
+
+    #submit {
+
+        width: 27%;
+    }
+
+    
+    #unique-page{
+
+        margin-top: 17%;
+    }
+
+ 
+
+
+}
+
+@media (max-width: 376px){
+
+#unique-page{
+
+        margin-top: 19%;
+    }
+
+    #form3Example5 {
+        height: calc(2.2em + 0.75rem + 2px) !important;
+        font-size: 11px;
+    }
+
+
+}
+@media (max-width: 321px){
+
+
+
+    #form3Example1{
+
+        
+        font-size: 9px;
+    }
+
+    #form3Example2{
+
+        
+        font-size: 9px;
+    }
+
+    #form3Example3{
+
+        
+        font-size: 9px;
+    }
+
+    #form3Example4{
+
+        
+        font-size: 9px;
+    }
+
+    #form3Example5{
+
+        
+        font-size: 9px;
+    }
+    #form3Example6{
+
+        
+        font-size: 9px;
+    }
+
+
+    #appliction_f {
+        width: 90% !important;
+    }
+
+    #submit {
+        width: 27%;
+        font-size: 13px;
+    }
+
+    #unique-page{
+
+        margin-top: 22%;
+    }
+
+
+
+}

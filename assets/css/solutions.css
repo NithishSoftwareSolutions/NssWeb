@@ -1,0 +1,910 @@
+.about_app{
+  
+  background-color: #2f1b56 !important;
+}
+
+
+
+.dawnload1{
+
+  display: flex !important;
+  justify-content: center !important;
+
+
+}
+
+
+.bg-primary12{
+
+    background-color:rgba(10, 76, 137, 1) ;
+}
+.column_1{
+    padding-left: 12%;
+    padding-top: 3%;
+   
+}
+.column_2{
+padding-left: 10%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    
+}
+#section10{
+
+  margin-bottom: 8%;
+}
+
+#section1{
+
+    margin-top: 16%;
+}
+/* .btn-primary{
+    background-color: #df2466 !important;
+    border-color: #df2466 !important;
+    width: 30% !important;
+    height: 13% !important;
+} */
+.iott-app-image{
+height: 50%;
+/* transform: rotate(10deg);  */
+}
+.features_1{
+    margin-bottom: -13%;
+}
+
+/* .about_ap{
+    background-color: #f2f2f2;
+} */
+/* Apply the initial styles to the image */
+#delivery-boy {
+    position: absolute;
+    animation: slideRight 15s linear infinite; 
+}
+
+/* Create the animation */
+@keyframes slideRight {
+    0% {
+        left: -30%; /* Starting position off-screen to the left */
+    }
+    100% {
+        left: 100%; /* Ending position off-screen to the right */
+    }
+}
+
+.app{
+    margin-top: 10%;
+}
+.iott-review-image{
+    width:50%;
+    height:100%;
+}
+.login_feature{
+    
+    margin-bottom: 3%;
+}
+.login_feature h2{
+    
+    margin-top: 20%;
+}
+.iott-payment_page{
+  width:40%;
+}
+.iott-home-image{
+    width:50%;
+}
+#section2{
+    margin-bottom:15%;
+}
+.restaurant_app{
+    margin-top:-60%;
+}
+/* 
+#section2 h3{
+    color:#df2466
+}
+#section4 h3{
+    color:#df2466
+}
+#section6 h3{
+    color:#df2466
+} */
+ .btn-secondary{
+    background-color: white !important;
+    border-color: rgba(10, 76, 137, 1) !important;
+    color: rgba(10, 76, 137, 1) !important;
+    font-weight: 600 !important;
+    font-family: 'Bitter' !important;
+   
+}
+.iott-apps-image{
+    width:90%;
+}
+#section5 .column_2{
+    padding-left: 0%;
+   
+}
+#section9{
+    margin-top:-20%;
+}
+/* #section10{
+    background-color: #f2f2f2;
+   
+} */
+
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #D80286;
+  }
+
+  .app_features{
+    margin-top:7%;
+  }
+
+
+
+  .itto_f{
+
+    font-family: 'Bitter';
+  }
+
+  .itto_p{
+
+    font-family: 'Nunito';
+  }
+
+  #itto_f{
+
+    color: #0C5FAB;
+  }
+
+
+  .WeGot{
+
+
+    font-family: 'Bitter';
+  }
+
+  .Your_app{
+  
+    font-family: 'Bitter';
+    
+  }
+
+  .WeGot{
+
+    font-family: bitter;
+  font-weight: 700;
+  color: #004085;
+  }
+
+  .Your_app{
+
+    font-family: bitter;
+  font-weight: 700;
+  color: #004085;
+
+  }
+
+  #featured{
+    font-size: 52px;
+    font-weight: 900;
+    font-family: bitter;
+
+
+    
+  }
+  #shap {
+    margin-top: 5%;
+}
+
+ 
+
+
+
+.fedat{
+
+  /* font-size: 45px; */
+    font-family: 'Bitter';
+    font-weight: 800;
+}
+  
+ 
+  @media (min-width: 1440px) {
+
+
+
+    #section7 {
+      margin-top: 44% !important;
+  }
+
+  #fedat {
+    /* font-size: 54px !important; */
+    margin-bottom: 42px !important;
+}
+
+    .colunm12{
+
+
+        padding: 5% !important;
+      }
+
+
+      .column_1{
+
+
+        padding: 1% 6% !important;
+
+      }
+      
+      .itto_p {
+        font-size: 15px !important;
+    }
+
+    .img12{
+
+        width: 71%;
+    }
+
+      .column_2{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        padding: 1% 6% !important;
+        width: 50% !important;
+      }
+
+
+      .itto_f {
+        font-size: 42px !important;
+        font-family: 'Bitter';
+    }
+
+ 
+
+    .WeGot {
+        font-size: 52px !important;
+        font-family: 'Bitter';
+    }
+    #btn-primary12 {
+      background-color: #004085 !important;
+      border-color: #004085 !important;
+      width: 25% !important;
+      height: 16% !important;
+    }
+
+ 
+
+    #section12{
+
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+    }
+
+    .itto_p{
+
+        font-size: 22px;
+    }
+
+    #section1 {
+      margin-top: 6% !important;
+  }
+
+  #shap {
+    margin-top: 5% !important;
+}
+}
+    
+
+
+      
+  @media (min-width: 1024px) {
+      .colunm12{
+
+        
+        padding: 3% !important;
+      }
+
+      .btn-primary12 {
+        background-color: #004085 !important;
+        border-color: #004085 !important;
+        width: 25% !important;
+        height: 6% !important;
+    }
+
+    #shap {
+      margin-top: 8%;
+  }
+
+  .itto_f {
+    font-size: 35px !important;
+
+}
+
+#section7 {
+  margin-top: 51% !important;
+}
+
+
+  }
+  
+
+  @media (min-width: 768px) {
+
+
+
+    .nsslog12{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    
+  #section7 {
+    margin-top: 30%;
+}
+
+.itto_f {
+  font-size: 42px !important;
+  font-family: 'Bitter';
+}
+
+    
+    .nithishs {
+     
+        width: 30% !important;
+    }
+
+
+    #section1 {
+        margin-top: 11%;
+    }
+
+
+    #section7 {
+        margin-top: 58% ;
+    }
+    
+    .column_copy{
+        padding: 3% !important;
+    }
+    .column_2{
+        max-width: 100%;
+        height: auto;
+        padding: 15% 4%;
+    }
+
+
+    .btn-primary12{
+
+        background-color: #004085 !important;
+    border-color: #004085 !important;
+    width: 25% !important;
+    height: 8% !important;
+    }
+
+
+    #section9 {
+        margin-top: 8%;
+    }
+    
+    .quick12{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video_p{
+
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .callus{
+        font-size: 13px;
+    }
+    
+    #section5 .column_1 {
+        padding: 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .login_feature h2 {
+        margin-top: 0%;
+    }
+
+    #ittoicon{
+        font-size: 60px !important;
+    }
+
+
+    #itto_p{
+
+        font-size: 15px;
+      
+    }
+
+    #waliito{
+
+      
+    }
+
+    .waliito2{
+
+        width: 60% !important;
+    }
+
+    .waliito{
+
+        width: 40% !important;
+    }
+
+    #itto_f{
+
+        color: #0C5FAB;
+      
+      }
+
+      .itto_f{
+        font-size: 19px ;
+        font-family: 'Bitter';
+      }
+
+      .itto_F{
+
+        font-family: 'Bitter';
+
+      }
+
+      #section7{
+
+        margin-top: 76%;
+      }
+
+      #itto_d{
+        font-family: 'Bitter';
+
+      }
+
+      .iott-app-image3{
+
+        display: none;
+        justify-content: center;
+        
+      }
+
+      .iott-app-image2 {
+
+        display: flex;
+        justify-content: center;
+        
+      }
+
+      .iott-app-image4 {
+
+        display: flex;
+        justify-content: center;
+      }
+
+      .WeGot{
+
+        font-size: 26px;
+
+        font-family: 'Bitter';
+      }
+
+      .Your_app{
+        font-size: 26px;
+        font-family: 'Bitter';
+        
+      }
+
+    #pad{
+
+        padding: 1.40rem !important;
+    }
+
+    
+    #shap {
+      margin-top: 9% ;
+  }
+
+  .shap{
+
+    margin-top: 9% !important;
+  }
+
+
+
+
+  .nithishs{
+
+    width: 30% !important;
+  }
+
+  .iott-app-image3{
+
+    display: block;
+    justify-content: center;
+    
+  }
+
+  .btn-primary12 {
+    background-color: #004085 !important;
+    border-color: #004085 !important;
+    width: 25% !important;
+    height: 12% !important;
+}
+}
+
+
+
+
+
+
+  
+
+  @media (min-width: 425px) {
+
+    
+    .column_2{
+
+    display: flex;
+    justify-content: center;
+    }
+
+   
+
+     #section5 .column_2 {
+        padding: 8%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    #section5 .column_1 {
+        padding: 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .login_feature h2 {
+        margin-top: 0%;
+    }
+
+    #ittoicon{
+        font-size: 60px !important;
+    }
+
+
+    #itto_p{
+
+        font-size: 15px;
+      
+    }
+
+    #waliito{
+
+      
+    }
+
+    #fedat{
+
+      font-size: 35px;
+      margin-bottom: 10px ;
+    }
+
+    .waliito2{
+
+        width: 60% !important;
+    }
+
+    .waliito{
+
+        width: 40% !important;
+    }
+
+    #itto_f{
+
+        color: #0C5FAB;
+      
+      }
+
+      .itto_f{
+        font-size: 19px ;
+        font-family: 'Bitter';
+      }
+
+      .itto_F{
+
+        font-family: 'Bitter';
+
+      }
+
+      #section7{
+
+        margin-top: 76%;
+      }
+
+      #itto_d{
+        font-family: 'Bitter';
+
+      }
+
+     
+
+      .iott-app-image2 {
+
+        display: flex;
+        justify-content: center;
+        
+      }
+
+      .iott-app-image4 {
+
+        display: flex;
+        justify-content: center;
+      }
+
+      .WeGot{
+
+        font-size: 26px;
+
+        font-family: 'Bitter';
+      }
+
+      .Your_app{
+        font-size: 26px;
+        font-family: 'Bitter';
+        
+      }
+
+    #pad{
+
+        padding: 1.40rem !important;
+    }
+
+    
+
+
+
+      .iott-app-image {
+        height: 71%;
+  }
+
+  .nithishs{
+
+    width: 30% ;
+  }
+
+  #section9 {
+    margin-top: 6%;
+}
+
+
+#section7{
+
+  margin-top: 61%;
+}
+
+#shap {
+  margin-top: 16%;
+}
+
+
+
+}
+
+
+
+@media (max-width: 376px) {
+
+  #shap {
+    margin-top: 19%;
+  }
+
+  
+  #fedat{
+    /* font-size: 24px !important; */
+  margin-bottom: 10px !important;
+
+
+  }
+
+  .fedat {
+    /* font-size: 34px; */
+    font-family: 'Bitter';
+    font-weight: 800;
+    margin-bottom: 36px;
+}
+
+#section7{
+
+  margin-top: 59%;
+}
+.itto_p{
+
+  font-size: 17px;
+}
+.itto_f{
+
+  font-size: 20px;
+}
+#section9 {
+  margin-top: 5%;
+}
+
+.btn-primary12 {
+  background-color: #004085 !important;
+  border-color: #004085 !important;
+  width: 25% !important;
+  height: 12% !important;
+
+}
+
+#shap {
+  margin-top: 18% !important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+  @media (max-width: 320px) {
+
+
+    .column_2{
+
+    display: flex;
+    justify-content: center;
+    }
+
+   
+
+     #section5 .column_2 {
+        padding: 8%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    #section5 .column_1 {
+        padding: 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .login_feature h2 {
+        margin-top: 0%;
+    }
+
+    #ittoicon{
+        font-size: 60px !important;
+    }
+
+
+    #itto_p{
+
+        font-size: 15px;
+      
+    }
+
+    #waliito{
+
+      
+    }
+
+    #shap{
+
+      margin-top: 23% !important;
+    }
+
+    #fedat{
+      /* font-size: 24px; */
+    margin-bottom: 10px !important;
+
+
+    }
+    .waliito2{
+
+        width: 60% !important;
+    }
+
+    .waliito{
+
+        width: 40% !important;
+    }
+
+    #itto_f{
+
+        color: #0C5FAB;
+      
+      }
+
+      .itto_f{
+        font-size: 19px !important;
+        font-family: 'Bitter';
+      }
+
+      .itto_F{
+
+        font-family: 'Bitter';
+
+      }
+
+      #section7{
+
+        margin-top: 61%;
+      }
+
+      #itto_d{
+        font-family: 'Bitter';
+
+      }
+
+      .btn-primary {
+        background-color: #004085 !important;
+        border-color: #004085 !important;
+        width: 49% !important;
+        height: 10% !important;
+    }
+
+      .iott-app-image2 {
+
+        display: flex;
+        justify-content: center;
+        
+      }
+
+      .iott-app-image4 {
+
+        display: flex;
+        justify-content: center;
+      }
+
+      .WeGot{
+
+        font-size: 26px;
+
+        font-family: 'Bitter';
+      }
+
+      .Your_app{
+        font-size: 26px;
+        font-family: 'Bitter';
+        
+      }
+
+    #pad{
+
+        padding: 1.40rem !important;
+    }
+
+    
+
+
+
+      .iott-app-image {
+        height: 71%;
+  }
+
+  .nithishs{
+
+    width: 73% !important;
+  }
+
+  #section9 {
+    margin-top: 10%;
+}
+
+}

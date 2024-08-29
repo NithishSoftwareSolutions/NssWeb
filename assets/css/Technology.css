@@ -4,6 +4,36 @@
   top: 50%;
 }
 
+.tecside_left{
+
+  margin-left: 17% !important;
+  }
 
 
+.technologies{
+
+  padding: 0% !important;
+}
+
+
+
+@media (max-width: 320px){
+.pro{
+  display: flex;
+flex-wrap: wrap !important;
+  
+}
+
+.tecside_left {
+  margin-left: 0px !important;
+}
+
+.heading_2 {
+
+  font-size: 1.5rem !important;
+}
+
+
+
+}
 
