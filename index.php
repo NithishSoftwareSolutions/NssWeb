@@ -18,7 +18,9 @@ error_reporting(0);
     transform: translateY(0); /* End visible at original position */
   }
 }
-
+* {
+  font-family: 'Nunito', sans-serif;
+}
 /* Apply initial styles to the brand logos */
 .brand-logo {
   opacity: 0; /* Start with opacity 0 */
@@ -77,10 +79,10 @@ figcaption {
   justify-content: center;
   position: relative; /* Required for relative positioning of .horizontal-line-container */
 }
-.why{
+/* .why{
   font-family:'Bitter';
   
-}
+} */
 
 /* .google_iframe iframe {
     width: 300px !important;
@@ -150,11 +152,10 @@ figcaption {
 }
 .tech_heading{
   color:white;
-  font-family:'Bitter';
+
 }
 .brands_text{
   color:black;
-  font-family:'Bitter';
 
 }
 #featuredservices{
@@ -176,10 +177,7 @@ figcaption {
   padding:6%;
   color:#797979;
 }
-.carousel_heading{
-  font-family: 'Bitter';
-  
-}
+
 .svg-container {
       position: relative;
       width: 100%;
@@ -197,7 +195,7 @@ figcaption {
       font-size: 40px;
       font-weight: bold;
       text-align: center;
-      font-family:'Bitter';
+      /* font-family:'Bitter'; */
     }
     @media (max-width: 768px) {
       .centered-text {
@@ -221,7 +219,7 @@ figcaption {
     background-color: #D9D9D94D;
   }
   .btn_text{
-    font-family: 'Bitter';
+    /* font-family: 'Bitter'; */
   }
   .iframe-container {
   position: relative;
@@ -253,10 +251,10 @@ figcaption {
   display: inline-block;
   font-size: 20px;
   margin: 4px 2px;
-  font-family:'Bitter';
+  /* font-family:'Bitter'; */
 }
 .heading_2{
-  font-family:'Bitter';
+  /* font-family:'Bitter'; */
 }
 
 
@@ -347,24 +345,35 @@ figcaption {
 </div>
 
 <div class="container">
-  <h3 class="brands_text text-center font-weight-bold">Top brands we work for</h3>
-    <div class="row" >
-        <div class="col-6 col-md animate__animated" data-animation="animate__zoomIn">
-            <a href="https://waymaart.nssorg.com"><img src="assets/img/Group 61 (1).png" alt="Brand 1" class="brand-logo img-fluid"></a>
-        </div>
-        <div class="col-6 col-md animate__animated" data-animation="animate__zoomIn">
-            <img src="assets/img/Component 24.png" alt="Brand 2" class="brand-logo img-fluid">
-        </div>
-        <div class="col-6 col-md animate__animated" data-animation="animate__zoomIn">
-            <a href="https://play.google.com/store/apps/details?id=zennnews.com&hl=en_IN"><img src="assets/img/zennnews.png" alt="Brand 3" class="brand-logo img-fluid">
-        </div>
-        <div class="col-6 col-md animate__animated" data-animation="animate__zoomIn">
-            <a href="https://iott.co.in"><img  src="assets/img/Component 23.png" alt="Brand 4" class="brand-logo img-fluid"></a>
-        </div>
-        <!-- <div class="col-6 col-md">
-            <img src="assets/img/waymoney.png" alt="Brand 5" class="brand-logo img-fluid">
-        </div> -->
+  <h3 class="brands_text text-center font-weight-bold mb-4">
+    Top brands we work for
+  </h3>
+
+  <div class="row justify-content-center align-items-center text-center">
+
+    <div class="col-auto animate__animated" data-animation="animate__zoomIn">
+      <a href="https://waymaart.nssorg.com">
+        <img src="assets/img/Group 61 (1).png" class="brand-logo img-fluid" alt="Brand 1">
+      </a>
     </div>
+
+    <div class="col-auto animate__animated" data-animation="animate__zoomIn">
+      <img src="assets/img/Component 24.png" class="brand-logo img-fluid" alt="Brand 2">
+    </div>
+
+    <div class="col-auto animate__animated" data-animation="animate__zoomIn">
+      <a href="https://play.google.com/store/apps/details?id=zennnews.com&hl=en_IN">
+        <img src="assets/img/zennnews.png" class="brand-logo img-fluid" alt="Brand 3">
+      </a>
+    </div>
+
+    <div class="col-auto animate__animated" data-animation="animate__zoomIn">
+      <a href="https://iott.co.in">
+        <img src="assets/img/Component 23.png" class="brand-logo img-fluid" alt="Brand 4">
+      </a>
+    </div>
+
+  </div>
 </div>
 
 
