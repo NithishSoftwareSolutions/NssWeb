@@ -24,6 +24,7 @@ error_reporting(0);
   opacity: 0; /* Start with opacity 0 */
   animation: scrollAnimation 0.6s ease-in-out forwards; /* Apply animation */
   animation-delay: 0s; /* Delay the animation for staggered effect */
+  height:50%;
 }
 .tech_cards{
   font-size: x-large;
@@ -349,16 +350,16 @@ figcaption {
   <h3 class="brands_text text-center font-weight-bold">Top brands we work for</h3>
     <div class="row" >
         <div class="col-6 col-md animate__animated" data-animation="animate__zoomIn">
-            <img src="assets/img/Group 61 (1).png" alt="Brand 1" class="brand-logo img-fluid">
+            <a href="https://waymaart.nssorg.com"><img src="assets/img/Group 61 (1).png" alt="Brand 1" class="brand-logo img-fluid"></a>
         </div>
         <div class="col-6 col-md animate__animated" data-animation="animate__zoomIn">
             <img src="assets/img/Component 24.png" alt="Brand 2" class="brand-logo img-fluid">
         </div>
         <div class="col-6 col-md animate__animated" data-animation="animate__zoomIn">
-            <img src="assets/img/sign-in.png" alt="Brand 3" class="brand-logo img-fluid">
+            <a href="https://play.google.com/store/apps/details?id=zennnews.com&hl=en_IN"><img src="assets/img/zennnews.png" alt="Brand 3" class="brand-logo img-fluid">
         </div>
         <div class="col-6 col-md animate__animated" data-animation="animate__zoomIn">
-            <img src="assets/img/Component 23.png" alt="Brand 4" class="brand-logo img-fluid">
+            <a href="https://iott.co.in"><img  src="assets/img/Component 23.png" alt="Brand 4" class="brand-logo img-fluid"></a>
         </div>
         <!-- <div class="col-6 col-md">
             <img src="assets/img/waymoney.png" alt="Brand 5" class="brand-logo img-fluid">

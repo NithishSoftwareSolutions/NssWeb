@@ -7,10 +7,7 @@ include_once 'include/loader.php';
 
    
    <style>
-        body {
-            background-color: #f8f9fa;
-            font-family: Arial, sans-serif;
-        }
+       
                 .contact-form {
                     background: #fff;
             margin-top: -7%;
