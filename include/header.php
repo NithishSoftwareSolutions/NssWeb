@@ -1,32 +1,18 @@
-<?php
-include 'config.php';
-include 'functions.php';
-// Fetch SEO metadata for the current page
- 
-$page_url = $_SERVER['REQUEST_URI'];
- 
-$seo_metadata = get_seo_metadata($conn, $page_url);
-?>
- 
-<!DOCTYPE html>
+
+
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php if ($seo_metadata): ?>
-        <title><?php echo htmlspecialchars($seo_metadata['title']); ?></title>
-        <meta name="description" content="<?php echo htmlspecialchars($seo_metadata['description']); ?>">
-        <meta name="keywords" content="<?php echo htmlspecialchars($seo_metadata['keywords']); ?>">
-    <?php else: ?>
-        <title>NSS</title>
-        <meta name="description" content="Default description">
-        <meta name="keywords" content="default, keywords">
-    <?php endif; ?>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>NSS</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-</head>
-<body>
+
 
 <!-- Favicons -->
 <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">

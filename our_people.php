@@ -753,35 +753,36 @@ font-family: ;
           <!-- First Slide -->
           <div class="carousel-item active">
             <div class="row">
+             
               <div class="col-4 col-md-4 team-member">
-                <img src="images/13.png" alt="Team Member 15" class="img-fluid inimge">
-                <h4>Pattamatta Naga Hima Varsha</h4>
-                <p>UI/UX Designer</p>
+                <img src="images/manasa.jpeg" alt="Team Member 2" class="img-fluid imgescenter inimge">
+                <h4>CH.P.Manasa</h4>
+                <p>Tester</p>
               </div>
               <div class="col-4 col-md-4 team-member">
-                <img src="images/4.png" alt="Team Member 2" class="img-fluid imgescenter inimge">
-                <h4>Nutan Boyana</h4>
-                <p>PHP Developer</p>
+                <img src="images/Bharadwaj.jpg" alt="Team Member 3" class="img-fluid inimge">
+                <h4>I Bharadwaj</h4>
+                <p>Java Developer Intern</p>
               </div>
               <div class="col-4 col-md-4 team-member">
-                <img src="images/38.png" alt="Team Member 3" class="img-fluid inimge">
-                <h4>G Paavana Krishna</h4>
-                <p>Video Editor</p>
+                <img src="images/anjali.jpeg" alt="Team Member 4" class="img-fluid inimge">
+                <h4>K Anjali</h4>
+                <p>Python Developer</p>
+              </div>
+               <div class="col-4 col-md-4 team-member">
+                <img src="images/jagadeesh.jpeg" alt="Team Member 15" class="img-fluid inimge">
+                <h4>B Jagadeesh</h4>
+                <p>Python Developer</p>
               </div>
               <div class="col-4 col-md-4 team-member">
-                <img src="images/16.png" alt="Team Member 4" class="img-fluid inimge">
-                <h4>Metla Nagaraju</h4>
-                <p>Back End Developer</p>
-              </div>
-              <div class="col-4 col-md-4 team-member">
-                <img src="images/6.png" alt="Team Member 8" class="img-fluid imgescenter inimge">
-                <h4>Pasumarthi Gowthami</h4>
+                <img src="images/tganesh.jpeg" alt="Team Member 8" class="img-fluid imgescenter inimge">
+                <h4>T. Ganesh Kumar</h4>
                 <p>Android Developer</p>
               </div>
               <div class="col-4 col-md-4 team-member">
-                <img src="images/62.jpg" alt="Team Member 14" class="img-fluid imgescenter inimge">
-                <h4>U Sowmya Sree</h4>
-                <p>PHP Developer</p>
+                <img src="images/saikumar.jpeg" alt="Team Member 14" class="img-fluid imgescenter inimge">
+                <h4>K Sai Kumar</h4>
+                <p>Java Developer</p>
               </div>
             </div>
           </div>
@@ -789,38 +790,87 @@ font-family: ;
           <div class="carousel-item">
             <div class="row">
               <div class="col-4 col-md-4 team-member">
-                <img src="images/9.png" alt="Team Member 7" class="img-fluid inimge">
-                <h4>Mamidi Anil kumar</h4>
+                <img src="images/rakesh.jpeg" alt="Team Member 7" class="img-fluid inimge">
+                <h4>T Rakesh</h4>
                 <p>Frontend Developer</p>
               </div>
               <div class="col-4 col-md-4 team-member">
-                <img src="images/12.png" alt="Team Member 9" class="img-fluid inimge">
-                <h4>Mummina Arjun</h4>
-                <p>Frontend Developer</p>
+                <img src="images/manasa.jpeg" alt="Team Member 9" class="img-fluid inimge">
+                <h4>Manasa</h4>
+                <p>Frontend Developer Intern</p>
               </div>
               <div class="col-4 col-md-4 team-member">
-                <img src="images/23.png" alt="Team Member 5" class="img-fluid imgescenter inimge">
-                <h4>Sibaram Mahapatra</h4>
+                <img src="images/kganesh.jpeg" alt="Team Member 5" class="img-fluid imgescenter inimge">
+                <h4>K Ganesh</h4>
                 <p>Testing</p>
                </div>
               <div class="col-4 col-md-4 team-member">
-                <img src="images/42.jpg" alt="Team Member 10" class="img-fluid inimge">
-                <h4>B.Jitendra</h4>
-                <p>Intern</p>
+                <img src="images/hemanth.jpeg" alt="Team Member 5" class="img-fluid imgescenter inimge">
+                <h4>C Hemanth</h4>
+                <p>Java Developer Intern</p>
+               </div>
+               <div class="col-4 col-md-4 team-member">
+                <img src="images/venkata_chaturya.jpg" alt="Team Member 15" class="img-fluid inimge">
+                <h4>Venkata Chaturya</h4>
+                <p>Java Developer Intern</p>
               </div>
-              <div class="col-4 col-md-4 team-member">
-                <img src="images/41.jpg" alt="Team Member 11" class="img-fluid imgescenter inimge">
-                <h4>Ragini</h4>
-                <p>Intern</p>
-              </div>
-              <div class="col-4 col-md-4 team-member">
-                <img src="images/35.png" alt="Team Member 12" class="img-fluid inimge">
-                <h4>Lakshman Ch</h4>
-                <p>Intern</p>
-              </div>
+               <div class="col-4 col-md-4 team-member">
+                <img src="images/tarun.jpeg" alt="Team Member 5" class="img-fluid imgescenter inimge">
+                <h4>P Tarun</h4>
+                <p>UI/UX Developer Intern</p>
+               </div>
             </div>
           </div>
           <!-- Third Slide -->
+            <div class="carousel-item">
+            <div class="row">
+              <div class="col-4 col-md-4 team-member">
+                <img src="images/harika.jpeg" alt="Team Member 7" class="img-fluid inimge">
+                <h4>Harika</h4>
+                <p>Java Intern</p>
+              </div>
+              <div class="col-4 col-md-4 team-member">
+                <img src="images/santhosh.jpeg" alt="Team Member 9" class="img-fluid inimge">
+                <h4>B Santhosh</h4>
+                <p>UI/UX Developer Intern</p>
+              </div>
+              <div class="col-4 col-md-4 team-member">
+                <img src="images/pawan.jpeg" alt="Team Member 5" class="img-fluid imgescenter inimge">
+                <h4>R Pawan</h4>
+                <p>UI/UX Developer Intern</p>
+               </div>
+              <div class="col-4 col-md-4 team-member">
+                <img src="images/himaja.jpeg" alt="Team Member 5" class="img-fluid imgescenter inimge">
+                <h4>Himaja</h4>
+                <p>UI/UX Developer Intern</p>
+               </div>
+               <div class="col-4 col-md-4 team-member">
+                <img src="images/nithin.jpeg" alt="Team Member 15" class="img-fluid inimge">
+                <h4>B Nithin</h4>
+                <p>Python Developer Intern</p>
+              </div>
+               <div class="col-4 col-md-4 team-member">
+                <img src="images/joymary.jpeg" alt="Team Member 5" class="img-fluid imgescenter inimge">
+                <h4>Joy Mary</h4>
+                <p>UI/UX Developer Intern</p>
+               </div>
+            </div>
+          </div>
+          <!-- <div class="carousel-item">
+            <div class="row">
+              <div class="col-4 col-md-4 team-member">
+                <img src="images/harika.jpeg" alt="Team Member 7" class="img-fluid inimge">
+                <h4>Harika</h4>
+                <p>Java Intern</p>
+              </div>3
+              <div class="col-4 col-md-4 team-member">
+                <img src="images/santhosh.jpeg" alt="Team Member 9" class="img-fluid inimge">
+                <h4>B Santhosh</h4>
+                <p>UI/UX Developer Intern</p>
+              </div>
+              
+            </div>
+          </div> -->
           <!-- Add more slides if needed -->
         </div>
         <a class="carousel-control-prev control1" id="control1" href="#teamCarousel" role="button" data-slide="prev">

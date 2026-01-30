@@ -694,9 +694,8 @@ font-weight: 100;
 
 }
 .solid_3{
-  font-size: 14px !important;
-  font-family:'Nunito' !important;
-  letter-spacing:1px !important;
+
+  font-size: 10px;
 }
 
 .solid_2{
@@ -1076,13 +1075,7 @@ flex-direction: column;
 align-items: flex-end;
 display: grid;
 }
-.btnapply{
 
-  width: 55% !important;
-  background-color: #0A4C89 !important;
-  color: white !important;
-
-}
 .elev{
 
 width: 100% !important;
@@ -1382,13 +1375,6 @@ font-size: 28px;
 
 
 
-  .btnapply{
-
-    width: 85% !important;
-    background-color: #0A4C89 !important;
-    color: white !important;
-  
-  }
 
 
 .triangle {

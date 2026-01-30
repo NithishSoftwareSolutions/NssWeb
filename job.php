@@ -141,7 +141,7 @@ if ($result_names->num_rows > 0) {
                 <div class="position-absolute w-100 text-center text-white txt" style="top: 40%; transform: translateY(-50%); font-size:12px;font-family: 'Nunito';"><?php echo $review['comment']; ?></div>
             </div>
             <div class="circle-image">
-                <img src="<?php echo $review['image_url']; ?>" alt="Review image">
+                <img src="<?php echo $review['image']; ?>" alt="Review image">
             </div>
             <h5 class="font"><?php echo $review['name']; ?></h5>
             <p class="d-flex justify-content-center">

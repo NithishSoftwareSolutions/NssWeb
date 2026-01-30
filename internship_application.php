@@ -1,5 +1,5 @@
 <?php
-include_once 'include/loader_new.php';
+include_once 'include/loader.php';
     include_once 'include/header.php';
     include_once 'config.php';
     error_reporting(0);

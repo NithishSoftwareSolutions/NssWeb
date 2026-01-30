@@ -257,12 +257,6 @@ figcaption {
 .heading_2{
   font-family:'Bitter';
 }
-.btnapply{
-
-background-color: #0A4C89;
-color: white;
-width: 35%;
-}
 
 
 </style>
@@ -290,7 +284,7 @@ width: 35%;
           Understand future-ready development to ROI-focused marketing and economical maintenance, we offer acomplete package. Our expert team of web designers, app developers, and marketers is dedicated to helping emerging businesses worldwide gain a competitive edge, generate valuable leads, and foster sustainable growth. Trust us to provide you with the tools and strategies needed to thrive in today's digital landscape.
           </p>
           <div class="col iconhome">
-            <i class="fa-solid fa-thumbs-up solid_1" style="color: #ffffff;margin-left:12%;"><br>
+            <i class="fa-solid fa-thumbs-up solid_1" style="color: #ffffff;"><br>
               <h6 class="solid_2">120+</h6>
               <h6 class="solid_3">Happy clients</h6>
             </i>
@@ -299,10 +293,10 @@ width: 35%;
               <h6 class="solid_3">Experts</h6>
             </i>
             <i class="fa-solid fa-handshake solid_1" style="color: #ffffff;"><br>
-              <h6 class="solid_2">3+</h6>
+              <h6 class="solid_2">20+</h6>
               <h6 class="solid_3">Years of Trust</h6>
             </i>
-            <img src="assets/img/image31.png" alt="" class="solid_1" style="width:15%;margin-left:-2%;margin-top:-1%;">
+            <img src="assets/img/image 31.png" alt="" class="solid_1">
 
             
             
@@ -667,7 +661,7 @@ width: 35%;
           
         </div>
       </div>
-      <a href="#" class="btn btnapply">Apply Now →</a>
+
     </div>
 
   </div>
@@ -855,15 +849,7 @@ width: 35%;
       });
     });
   </script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('.btnapply').click(function(event){
-        event.preventDefault();
-        window.location.href = 'internship_application.php';
-      });
-    });
-  </script>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>

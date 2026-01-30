@@ -19,12 +19,7 @@
 
 
 define("DB_HOST", "localhost");
-define("DB_USERNAME", "iott");
-define("DB_PASSWORD", "New_3339");
+define("DB_USERNAME", "adminuser");
+define("DB_PASSWORD", "cY(iRf5v2HW0.W[s");
 define("DB_DATABASE_NAME", "test_nss");
-$conn = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_DATABASE_NAME);
- 
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-?>
+

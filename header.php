@@ -236,7 +236,6 @@ jQuery
     </style>
 </head>
 <body>
-    
 <nav class="navbar navbar-expand-lg bg-light fixed-top navbar_main12" style="padding: 0%;">
     <div class="container-fluid">
         <div class="row w-100 align-items-center">

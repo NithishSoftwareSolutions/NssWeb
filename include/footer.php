@@ -1,131 +1,78 @@
 <style>
-  footer {
-  background-color: #326FA7;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-  font-family: 'Bitter';
-}
+  .footer{
+    background-color:#3472AB;
  
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  }
+  .footer-text{
+    font-family:'Nunito';
+    color:white;
+  }
+  .footer-text a{
+    font-family:'Nunito';
+    color:white;
+  }
+  .footer-text a:hover{
+    font-family:'Nunito';
+    color:white;
+    text-decoration:none;
+  }
+  .footer_links{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  
-.contact-info {
-  margin-bottom: 10px;
-}
+  }
  
-.contact-info a {
-  color: white;
-  text-decoration: none;
-}
- 
-.social-media {
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
-.social-media::before,
-.social-media::after {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background-color: white;
-  margin: 0 10px;
-}
-
-.social-media a img {
-  width: 24px;
-  height: 24px;
-  margin: 0 10px;
-}
- 
-.company-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10px;
-}
- 
-.company-info img {
-  /* width: 50px;
-  height: 50px; */
-  margin-bottom: 10px;
-}
- 
-.footer-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 5px;
-}
- 
-.footer-nav a:hover {
-  text-decoration: underline;
-}
-.contact-info1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.contact-left{
-  margin-left: 15%;
-}
-.contact-right{
-  margin-right:15%;
-}
-.email{
-  color:white;
-}
-.phone{
-  color:white;
-}
 </style>
-<footer>
-
-<div class="social-media">
-<a href="
-https://www.instagram.com/nss_software?igsh=c3RxOHExcGc4cTMz"
-target="_blank"><img src="assets/img/Vector.png" alt="Instagram"></a>
-<a href="
-https://www.facebook.com/profile.php?id=61560461565737"
-target="_blank"><img src="assets/img/Vector (1).png" alt="Facebook"></a>
-<a href="
-https://whatsapp.com/channel/0029VaXwNMdInlqItVQOL332"
-target="_blank"><img src="assets/img/Vector (2).png" alt="WhatsApp"></a>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+ 
+<footer class="footer pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="assets/img/Group 58.png" alt="Nithish Software Solutions" class="img-fluid w-75">
+        <p class="footer-text text-justify mt-3">Boost your business with our web solutions. Our expert team offers strategic design, marketing, and development to help you gain an edge and grow sustainably.</p>
+        <p class="footer-text">Contact: info@nss.org.com<br><i class="fa-solid fa-phone"></i> 9391098686</p>
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-2">
+        <h4 class="footer-text">Resources</h4>
+        <ul class="list-unstyled footer-text mt-5">
+          <li><a href="index.php">HOME</a></li>
+          <li><a href="technologies.php">TECHNOLOGIES</a></li>
+          <li><a href="our_people.php">OUR PEOPLE</a></li>
+          <li><a href="job.php">INTERNSHIPS</a></li>
+          <li><a href="solutions.php">SOLUTIONS</a></li>
+          <li><a href="contact.php">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-2 border-top">
+  <ul class="list-unstyled d-flex">
+    <li class="ms-4 bg-white p-2 rounded footer_links">
+      <a class="link-dark" href="https://www.facebook.com/profile.php?id=61560461565737" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+    </li>
+    <li class="ms-4 bg-white p-2 rounded footer_links" >
+      <a class="link-dark" href="https://www.instagram.com/nss_software?igsh=c3RxOHExcGc4cTMz" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+    </li>
+    <li class="ms-4 bg-white p-2 rounded footer_links" >
+      <a class="link-dark" href="https://whatsapp.com/channel/0029VaXwNMdInlqItVQOL332" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+    </li>
+    <li class="ms-4">
+      <!-- <a class="link-dark" href="#"></a> -->
+      <p class="text-white"><img src="assets/img/image 2 (1).png" alt="aicte" class="img-fluid w-25">AICTE Approved</p>
+    </li>
+  </ul>
+  <p class="footer-text mt-3">© 2024 Nithish Software Solutions Pvt. Ltd. All Rights Reserved</p>
 </div>
-<div class="footer-container">
-<!-- <div class="contact-info">
-<p>Contact: <a href="mailto:info@nss.org.com">info@nss.org.com</a></p>
-<p>Phone: <a href="tel:+91891406856">0891-406856</a></p>
-</div> -->
-<div class="contact-info1">
-  <p class="contact-left">Contact: <a href="mailto:info@nssorg.com" class="email">info@nssorg.com</a></p>
-  <p class="contact-right">Phone: <a href="tel:+91891406856" class="phone">0891-406856</a></p>
-</div>
-<div class="company-info">
-<img src="assets/img/Group 90.png" alt="Nitish Software Solutions Logo">
-<p>&copy; 2023 Nitish Software Solutions Pvt. Ltd.</p>
-</div>
-<nav class="footer-nav">
-<a href="index.php">Home</a> |
-<a href="technologies.php">Technologies</a> |
-<a href="our_people.php">Our People</a> |
-<a href="job.php">Internships</a> |
-<a href="solutions.php">Solutions</a> |
-<a href="contact.php">Contact Us</a>
-</nav>
-</div>
+  </div>
 </footer>
-<script>
-  document.addEventListener('DOMContentLoaded', (event) => {
-  const socialMediaLinks = document.querySelectorAll('.social-media a');
-  socialMediaLinks.forEach(link => {
-    link.setAttribute('target', '_blank');
-  });
-});
-</script>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
